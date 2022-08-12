@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #100829;
+  --secondary-color: #ffd700;
+  --accent-color: #d0231d;
+  --tertiary-color: #483d03;
+  --four-color: #1a090d;
+  --fifth-color: #5a0427;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nav-initials {
+  border: 1px solid white;
+  padding: 3px 5px;
+}
+h1 {
+  color: var(--accent-color);
+  font-size: 90px;
+  font-family: "Uchen", serif;
+  border: 2px solid var(--accent-color);
+}
+.bg-light {
+  /*bg color of nav bar*/
+  background-color: var(--primary-color) !important;
+}
+.avatars-bg {
+  /* bg color of women avatars*/
+  background-color: #100829;
+  padding-top: 40px;
+}
+.avatar-cards {
+  background: linear-gradient(to right, red, #ffd700);
+  color: white;
+  border-width: 1.5px;
+}
+img.hair-fire {
+  height: 334px;
+}
+.row {
+  margin: 0 auto;
+}
+h2 {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+.unicorn-img,
+.turtle-img,
+.cow-img {
+  height: 325px;
+}
+p {
+  font-family: "Questrial", sans-serif;
+}
+.iron-man,
+.captain-america {
+  height: 284px;
+}
+@media (max-width: 992px) {
+  h1#cyber {
+    font-size: 35px;
+    text-align: center;
+    border: none;
+    margin-top: -80px;
+  }
+}
+@media (max-width: 377px) {
+  .background {
+    width: 100%;
+  }
+}
+button#transform-button {
+  background-image: linear-gradient(red, yellow);
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px white;
+  border: none;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 3px 13px;
+  width: 37%;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 33px;
+}
+h3.follow-us {
+  text-align: center;
+  color: white;
+  margin-top: 100px !important;
+}
+.long-line-1 {
+  width: 40%;
+  margin: 0 auto;
+}
+.long-line-2 {
+  width: 40%;
+  margin: 0 auto;
+}
+.long-line-3 {
+  margin: 0 auto;
+  width: 40%;
+}
+.button-location {
+  background-color: #5a0427;
+  border: none;
+} /*put btn-primary and customize the same button with css without hover or anything it works*/
