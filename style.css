@@ -5,6 +5,7 @@
   --tertiary-color: #483d03;
   --four-color: #1a090d;
   --fifth-color: #5a0427;
+  --navy-blue: #000080;
   --hero-font: "Uchen", serif;
   --paragraph-font: "Questrial", sans-serif;
 }
@@ -77,19 +78,7 @@ p {
 .captain-america {
   height: 284px;
 }
-@media (max-width: 992px) {
-  h1#cyber {
-    font-size: 35px;
-    text-align: center;
-    border: none;
-    margin-top: -80px;
-  }
-}
-@media (max-width: 377px) {
-  .background {
-    width: 150%;
-  }
-}
+
 button#transform-button {
   background-image: linear-gradient(red, yellow);
   border-radius: 8px;
