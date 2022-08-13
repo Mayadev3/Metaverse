@@ -5,22 +5,39 @@
   --tertiary-color: #483d03;
   --four-color: #1a090d;
   --fifth-color: #5a0427;
+  --hero-font: "Uchen", serif;
+  --paragraph-font: "Questrial", sans-serif;
 }
-
-.background {
-  background-size: cover;
+.hero {
+  background-image: url("/girl\ background.jpg");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
 }
 .nav-initials {
   border: 1px solid white;
   padding: 3px 5px;
 }
-h1 {
+h1#cyber {
   color: var(--accent-color);
-  font-size: 90px;
-  font-family: "Uchen", serif;
-  border: 2px solid var(--accent-color);
+  font-size: 70px;
+  text-align: center;
+  margin-top: 90px;
+  font-family: var(--hero-font);
+}
+p#cyberdelics-info {
+  color: #9e2a2b;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+  margin-top: -23px;
 }
 .bg-light {
   /*bg color of nav bar*/
@@ -54,7 +71,7 @@ h2 {
   height: 325px;
 }
 p {
-  font-family: "Questrial", sans-serif;
+  font-family: var(--paragraph-font);
 }
 .iron-man,
 .captain-america {
@@ -70,7 +87,7 @@ p {
 }
 @media (max-width: 377px) {
   .background {
-    width: 100%;
+    width: 150%;
   }
 }
 button#transform-button {
@@ -103,7 +120,11 @@ h3.follow-us {
   margin: 0 auto;
   width: 40%;
 }
+
+.button-card {
+  background-color: #0000ff;
+}
 .button-location {
-  background-color: #5a0427;
+  background-color: #0000ff;
   border: none;
 } /*put btn-primary and customize the same button with css without hover or anything it works*/
