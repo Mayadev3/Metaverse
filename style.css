@@ -119,8 +119,51 @@ h3.follow-us {
   border: none;
 } /*put btn-primary and customize the same button with css without hover or anything it works*/
 .follow-us {
-  padding-top: 90px;
+  padding-top: 80px;
 }
 a.trans {
   text-decoration: none;
+}
+/*Metalocation page*/
+.body-metalication {
+  background-color: #100829;
+}
+.metalocation-container-1 {
+  margin-top: 110px;
+}
+.metalocation-container-2 {
+  margin-top: 20px;
+}
+.genre-info {
+  margin-left: -11px;
+  gap: 60px;
+}
+.long-line-2 {
+  text-align: left;
+}
+img.img-location {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.p-location {
+  padding: 80px;
+}
+.follow-us-location {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+/*Video Page*/
+body.video {
+  background-color: #100829;
+}
+.video-info,
+.video-info-2 {
+  padding: 80px;
+}
+.video {
+  display: block;
+  margin: 0 auto;
 }
