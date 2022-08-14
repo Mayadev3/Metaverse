@@ -19,8 +19,7 @@
   padding-top: 50px;
 }
 .nav-initials {
-  border: 1px solid white;
-  padding: 3px 5px;
+  padding: 3px 10px;
 }
 h1#cyber {
   color: var(--accent-color);
@@ -54,12 +53,11 @@ p#cyberdelics-info {
   color: white;
   border-width: 1.5px;
 }
-img.hair-fire {
-  height: 334px;
+img.iron-man-card,
+img.captain-america-card {
+  height: 545px;
 }
-.row {
-  margin: 0 auto;
-}
+
 h2 {
   color: white;
   font-family: "Ubuntu", sans-serif;
@@ -82,7 +80,7 @@ p {
 button#transform-button {
   background-image: linear-gradient(red, yellow);
   border-radius: 8px;
-  box-shadow: 0px 0px 20px white;
+
   border: none;
   color: white;
   display: block;
@@ -91,6 +89,9 @@ button#transform-button {
   width: 37%;
   font-family: "Ubuntu", sans-serif;
   font-size: 33px;
+}
+button#transform-button:hover {
+  box-shadow: 0px 0px 20px white;
 }
 h3.follow-us {
   text-align: center;
@@ -117,3 +118,9 @@ h3.follow-us {
   background-color: #0000ff;
   border: none;
 } /*put btn-primary and customize the same button with css without hover or anything it works*/
+.follow-us {
+  padding-top: 90px;
+}
+a.trans {
+  text-decoration: none;
+}
