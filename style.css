@@ -168,7 +168,7 @@ body.video {
   margin: 0 auto;
 }
 /*media queries*/
-
+/*meta location section in index.html*/
 @media (max-width: 550px) {
   h1#cyber {
     font-size: 30px;
