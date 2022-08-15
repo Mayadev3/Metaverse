@@ -53,10 +53,6 @@ p#cyberdelics-info {
   color: white;
   border-width: 1.5px;
 }
-img.iron-man-card,
-img.captain-america-card {
-  height: 545px;
-}
 
 h2 {
   color: white;
@@ -64,17 +60,8 @@ h2 {
   text-align: center;
 }
 
-.unicorn-img,
-.turtle-img,
-.cow-img {
-  height: 325px;
-}
 p {
   font-family: var(--paragraph-font);
-}
-.iron-man,
-.captain-america {
-  height: 284px;
 }
 
 button#transform-button {
@@ -167,11 +154,23 @@ body.video {
   display: block;
   margin: 0 auto;
 }
+.animal-wrapper {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.card,
+.card-body {
+  background-image: linear-gradient(red, yellow);
+}
+.griddy {
+  margin: 0 auto;
+}
 /*media queries*/
 /*meta location section in index.html*/
 @media (max-width: 550px) {
   h1#cyber {
-    font-size: 30px;
+    font-size: 47px;
+    margin-top: 160px;
   }
   .long-line-1 {
     width: 90%;
@@ -188,7 +187,11 @@ body.video {
     align-items: center;
     justify-content: center;
   }
-  .location-title-index {
+
+  .read-query {
+    text-align: center;
+  }
+  h3.location-title-index {
     text-align: center;
     margin-top: 20px;
   }
@@ -198,5 +201,21 @@ body.video {
   button.button-location {
     display: block;
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 912px) {
+  .animal-wrapper {
+    padding: 30px;
+  }
+  .icons-container {
+    display: flex;
+    gap: 30px;
+  }
+}
+@media (min-width: 913px) {
+  .icons-container {
+    display: flex;
+    gap: 100px;
   }
 }
