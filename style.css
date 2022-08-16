@@ -231,3 +231,28 @@ body.video {
 .animal-img-height {
   height: 196px;
 }
+@media (max-width: 550px) {
+  .location-title-meta {
+    text-align: center;
+  }
+  .genre-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .img-local-meta {
+    padding: 26px;
+  }
+  .meta-text {
+    text-align: justify;
+  }
+  .back-link {
+    text-align: center;
+  }
+}
+@media (min-width: 280px) and (max-width: 411px) {
+  .genre-meta {
+    font-size: 15px;
+  }
+}
