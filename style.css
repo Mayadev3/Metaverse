@@ -83,7 +83,7 @@ button#transform-button:hover {
 h3.follow-us {
   text-align: center;
   color: white;
-  margin-top: 100px !important;
+  margin-top: 90px !important;
 }
 .long-line-1 {
   width: 40%;
@@ -106,8 +106,12 @@ h3.follow-us {
   border: none;
 } /*put btn-primary and customize the same button with css without hover or anything it works*/
 .follow-us {
-  padding-top: 80px;
+  padding-top: 50px;
 }
+.icons-container {
+  gap: 20px;
+}
+
 a.trans {
   text-decoration: none;
 }
