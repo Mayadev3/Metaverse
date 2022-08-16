@@ -272,10 +272,10 @@ body.video {
     width: 100%;
   }
   .video-p {
-    text-align: center;
+    text-align: left;
   }
   .jason-mail,
   .silva-contact {
-    text-align: center;
+    text-align: left;
   }
 }
