@@ -231,6 +231,7 @@ body.video {
 .animal-img-height {
   height: 196px;
 }
+/*Meta location page media query*/
 @media (max-width: 550px) {
   .location-title-meta {
     text-align: center;
@@ -254,5 +255,30 @@ body.video {
 @media (min-width: 280px) and (max-width: 411px) {
   .genre-meta {
     font-size: 15px;
+  }
+}
+/*Video page media query*/
+@media (max-width: 550px) {
+  .video-title {
+    text-align: center;
+    font-size: 18px;
+  }
+  .video-time-posted {
+    text-align: center;
+    font-size: 13px;
+  }
+  .videos {
+    display: block;
+    margin: 0 auto;
+  }
+  .video-silva-1 {
+    width: 100%;
+  }
+  .video-p {
+    text-align: center;
+  }
+  .jason-mail,
+  .silva-contact {
+    text-align: center;
   }
 }
