@@ -6,6 +6,7 @@
   --four-color: #1a090d;
   --fifth-color: #5a0427;
   --navy-blue: #000080;
+  --index-headings-font: "Ubuntu", sans-serif;
   --hero-font: "Uchen", serif;
   --paragraph-font: "Questrial", sans-serif;
 }
@@ -19,7 +20,7 @@
   padding-top: 50px;
 }
 .nav-initials {
-  padding: 3px 10px;
+  padding: 3px 8px;
 }
 .active {
   color: var(--secondary-color) !important;
@@ -40,7 +41,7 @@ p#cyberdelics-info {
   text-align: center;
   width: 50%;
   margin: 0 auto;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   margin-top: -23px;
 }
 .bg-light {
@@ -49,18 +50,17 @@ p#cyberdelics-info {
 }
 .avatars-bg {
   /* bg color of women avatars*/
-  background-color: #100829;
+  background-color: var(--primary-color);
   padding-top: 40px;
 }
 .avatar-cards {
   background: linear-gradient(to right, red, #ffd700);
   color: white;
-  border-width: 1.5px;
 }
 
 h2 {
   color: white;
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--index-headings-font);
   text-align: center;
 }
 
@@ -69,20 +69,27 @@ p {
 }
 
 button#transform-button {
-  background-image: linear-gradient(red, yellow);
+  background-image: linear-gradient(#ff007f, yellow);
   border-radius: 8px;
-
   border: none;
   color: white;
   display: block;
   margin: 0 auto;
+  margin-top: 80px;
   padding: 3px 13px;
-  width: 37%;
+  width: 33%;
   font-family: "Ubuntu", sans-serif;
   font-size: 33px;
+  box-shadow: 0px 0px 20px white;
 }
 button#transform-button:hover {
-  box-shadow: 0px 0px 20px white;
+  box-shadow: 0px 0px 40px #c724b1;
+}
+@media (max-width: 550px) {
+  button#transform-button {
+    font-size: 13px;
+    width: 70%;
+  }
 }
 h3.follow-us {
   text-align: center;
@@ -121,7 +128,7 @@ a.trans {
 }
 /*Metalocation page*/
 .body-metalication {
-  background-color: #100829;
+  background-color: var(--primary-color);
 }
 .metalocation-container-1 {
   margin-top: 110px;
@@ -153,7 +160,7 @@ img.img-location {
 }
 /*Video Page*/
 body.video {
-  background-color: #100829;
+  background-color: var(--primary-color);
 }
 /*.video-info,
 .video-info-2 {
