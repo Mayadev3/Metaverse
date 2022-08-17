@@ -57,7 +57,12 @@ p#cyberdelics-info {
   background: linear-gradient(to right, red, #ffd700);
   color: white;
 }
-
+.card-body {
+  background-image: linear-gradient(
+    red,
+    yellow
+  ); /*this is for the fantasy animal cards*/
+}
 h2 {
   color: white;
   font-family: var(--index-headings-font);
@@ -83,32 +88,19 @@ button#transform-button {
   box-shadow: 0px 0px 20px white;
 }
 button#transform-button:hover {
+  color: #c724b1;
   box-shadow: 0px 0px 40px #c724b1;
 }
-@media (max-width: 550px) {
-  button#transform-button {
-    font-size: 13px;
-    width: 70%;
-  }
-}
+
 h3.follow-us {
   text-align: center;
   color: white;
-  margin-top: 90px !important;
+  margin-top: 90px;
 }
 .long-line-1 {
   width: 40%;
   margin: 0 auto;
 }
-.long-line-2 {
-  width: 40%;
-  margin: 0 auto;
-}
-.long-line-3 {
-  margin: 0 auto;
-  width: 40%;
-}
-
 .button-card {
   background-color: #0000ff;
 }
@@ -116,15 +108,12 @@ h3.follow-us {
   background-color: #0000ff;
   border: none;
 } /*put btn-primary and customize the same button with css without hover or anything it works*/
+
 .follow-us {
   padding-top: 50px;
 }
 .icons-container {
   gap: 20px;
-}
-
-a.trans {
-  text-decoration: none;
 }
 /*Metalocation page*/
 .body-metalication {
@@ -141,16 +130,14 @@ a.trans {
   gap: 60px;
   font-size: 14px;
 }
-.long-line-2 {
-  text-align: left;
-}
+
 img.img-location {
   width: 835px;
   display: block;
   margin: 0 auto;
   margin-top: 40px;
 }
-.p-location {
+.meta-text {
   padding: 80px;
 }
 .follow-us-location {
@@ -162,10 +149,7 @@ img.img-location {
 body.video {
   background-color: var(--primary-color);
 }
-/*.video-info,
-.video-info-2 {
-  padding: 80px;
-}*/
+
 .video-info,
 .jason-mail {
   text-align: left;
@@ -177,25 +161,18 @@ body.video {
   display: block;
   margin: 0 auto;
 }
-.silva-contact {
-  padding-left: 70px;
-  padding-right: 70px;
-}
-
 .video-p {
   text-align: left;
   padding-left: 70px;
   padding-right: 70px;
   margin-top: 30px;
 }
-.animal-wrapper {
-  padding-left: 120px;
-  padding-right: 120px;
+.silva-contact {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: var(--paragraph-font);
 }
-.card,
-.card-body {
-  background-image: linear-gradient(red, yellow);
-}
+
 .griddy {
   margin: 0 auto;
 }
@@ -229,15 +206,17 @@ body.video {
     margin-top: 20px;
     margin-bottom: 17px;
   }
-  .location-text {
-    text-align: center;
-  }
+
   .read-query {
     text-align: center;
   }
   button.button-location {
     display: block;
     margin: 0 auto;
+  }
+  button#transform-button {
+    font-size: 13px;
+    width: 70%;
   }
 }
 
@@ -276,7 +255,7 @@ body.video {
     justify-content: start;
     gap: 14px;
   }
-  .img-local-meta {
+  .img-location {
     padding: 12px;
   }
   .meta-text {
