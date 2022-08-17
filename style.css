@@ -300,14 +300,16 @@ body.video {
 .small {
   writing-mode: vertical-rl;
 }
-a.coded-by-link {
-  text-decoration: none;
-}
-
 .small::after {
   content: "";
   display: block;
   width: 1px;
   height: 200px;
   background-color: white;
+}
+a.coded-by-link {
+  text-decoration: none;
+}
+a.coded-by-link:hover {
+  color: #c724b1;
 }
