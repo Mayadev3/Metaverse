@@ -21,6 +21,10 @@
 .nav-initials {
   padding: 3px 10px;
 }
+.active {
+  color: var(--secondary-color) !important;
+  font-weight: bold;
+}
 h1#cyber {
   color: var(--accent-color);
   font-size: 70px;
@@ -125,15 +129,16 @@ a.trans {
 .metalocation-container-2 {
   margin-top: 20px;
 }
-.genre-info {
+.genre-meta {
   margin-left: -11px;
   gap: 60px;
+  font-size: 14px;
 }
 .long-line-2 {
   text-align: left;
 }
 img.img-location {
-  width: 600px;
+  width: 835px;
   display: block;
   margin: 0 auto;
   margin-top: 40px;
@@ -150,13 +155,31 @@ img.img-location {
 body.video {
   background-color: #100829;
 }
-.video-info,
+/*.video-info,
 .video-info-2 {
   padding: 80px;
+}*/
+.video-info,
+.jason-mail {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 140px;
 }
 .video {
   display: block;
   margin: 0 auto;
+}
+.silva-contact {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.video-p {
+  text-align: left;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 30px;
 }
 .animal-wrapper {
   padding-left: 120px;
@@ -170,17 +193,22 @@ body.video {
   margin: 0 auto;
 }
 /*media queries*/
-/*meta location section in index.html*/
+
 @media (max-width: 550px) {
+  .nav-initials {
+    font-size: 15px;
+  }
   h1#cyber {
     font-size: 30px;
-    margin-top: 190px;
+    margin-top: 170px;
+  }
+  p#cyberdelics-info {
+    margin-top: 10px;
+    width: 230px;
+    font-size: 17px;
   }
   .long-line-1 {
     width: 90%;
-  }
-  #cyberdelics-info {
-    display: none;
   }
   .location-img-index {
     display: none;
@@ -234,22 +262,23 @@ body.video {
 /*Meta location page media query*/
 @media (max-width: 550px) {
   .location-title-meta {
-    text-align: center;
+    text-align: left;
   }
   .genre-meta {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
     gap: 14px;
   }
   .img-local-meta {
-    padding: 26px;
+    padding: 12px;
   }
   .meta-text {
-    text-align: justify;
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
   }
   .back-link {
-    text-align: center;
+    text-align: left;
   }
 }
 @media (min-width: 280px) and (max-width: 411px) {
@@ -259,23 +288,21 @@ body.video {
 }
 /*Video page media query*/
 @media (max-width: 550px) {
-  .video-title {
-    text-align: center;
+  .video-info {
+    text-align: left;
     font-size: 18px;
+    padding: 13px;
   }
   .video-time-posted {
-    text-align: center;
-    font-size: 13px;
+    font-size: 15px;
   }
-
-  .video-silva-1 {
+  .video {
     width: 100%;
   }
-  .video-p {
-    text-align: left;
-  }
+  .video-p,
   .jason-mail,
   .silva-contact {
     text-align: left;
+    padding: 13px;
   }
 }
