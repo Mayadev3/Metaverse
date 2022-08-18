@@ -309,7 +309,7 @@ body.video {
   content: "";
   display: block;
   width: 1px;
-  height: 200px;
+  height: 300px;
   background-color: white;
 }
 
