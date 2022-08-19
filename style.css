@@ -153,13 +153,6 @@ h3.follow-us {
   top: 0;
   margin: 0 auto;
 }
-/*.small::after {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 300px;
-  background-color: white;
-}*/
 a.coded-by-link {
   text-decoration: none;
   color: white;
