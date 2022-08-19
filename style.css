@@ -141,14 +141,25 @@ h3.follow-us {
 }
 .small {
   writing-mode: vertical-rl;
+  position: relative;
 }
-.small::after {
+.small-link::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 230px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+}
+/*.small::after {
   content: "";
   display: block;
   width: 1px;
   height: 300px;
   background-color: white;
-}
+}*/
 a.coded-by-link {
   text-decoration: none;
   color: white;
@@ -156,13 +167,18 @@ a.coded-by-link {
 a.coded-by-link:hover {
   color: #c724b1;
 }
-
-a i {
+i.github-icon {
+  font-size: 23px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 100%;
+}
+a i.icon-follow {
   color: white;
   font-size: 27px;
   transition: all 150ms ease-in-out;
 }
-a i:hover {
+a i.icon-follow:hover {
   box-shadow: 0px 0px 20px white;
   border-radius: 100%;
   padding: 10px;
