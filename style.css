@@ -177,6 +177,9 @@ a i.icon-follow:hover {
   padding: 10px;
   transform: translateY(-17px);
 }
+.follow-us-videos {
+  margin-top: 130px;
+}
 /*Metalocation page*/
 .body-metalication {
   background-color: var(--primary-color);
