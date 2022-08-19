@@ -308,7 +308,7 @@ body.video {
 }
 @media (min-width: 280px) and (max-width: 411px) {
   .genre-meta {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 /*Video page media query*/
