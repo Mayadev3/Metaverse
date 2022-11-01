@@ -10,6 +10,7 @@ Coding Achievements:
 - Embeded youtube videos using iframe
 - Styled Fontawesome icons to make them more attractive and eye catching
 - Wrote stories and used images for the gaming characters, meta locations, and fantasy animals
+- Made it SEO friendly
 
 
 Demo Link: https://effervescent-paletas-b996bb.netlify.app/
